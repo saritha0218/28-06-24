@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 62.5%; 
+        }
+        body {
+            font-family: "Nunito", sans-serif;
+            color: #333;
+            font-weight: 300;
+            line-height: 1.6; 
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4,500px);
+            gap: 10px;
+
+        }
+        .imgs{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block; 
+        }
+        .i1{
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .i2{
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+        .i3{
+            grid-column: 4/5;
+            grid-row: 1/2;
+        }
+        .i4{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .i5{
+            grid-column: 2/4;
+            grid-row: 2/3;
+        }
+        .i6{
+           grid-column: 4/5;
+           grid-row: 2/3;
+        }
+        .i7{
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .i8{
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+        .i9{
+            grid-column: 3/5;
+            grid-row:3/4 ;
+        }
+        .i10{
+            grid-column: 1/3;
+            grid-row: 4/5;
+        }
+        .i11{
+            grid-column: 3/4;
+            grid-row: 4/5;
+        }
+        .i12{
+            grid-column: 4/5;
+            grid-row: 4/5;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Photolab</h1>
+        <p>A template made by SG for myself...</p>
+        <p>Some of my memories...</p>
+    </center>
+    <div class="container">
+        <img class="imgs i1" src="./imgs/i8.jpg">
+        <img class="imgs i2" src="./imgs/i5.jpg">
+        <img class="imgs i3" src="./imgs/i4.jpg">
+        <img class="imgs i4" src="./imgs/i10.jpg">
+        <img class="imgs i5" src="./imgs/i1.jpg ">
+        <img class="imgs i6" src="./imgs/i2.JPG">
+        <img class="imgs i7" src="./imgs/i3.JPG ">
+        <img class="imgs i8" src="./imgs/i6.jpg">
+        <img class="imgs i9" src="./imgs/i7.jpg ">
+        <img class="imgs i10" src="./imgs/i9.jpg ">
+        <img class="imgs i11" src="./imgs/i11.jpg ">
+        <img class="imgs i12" src="./imgs/i12.jpg">
+    </div>
+</body>
+</html>

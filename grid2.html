@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .lay{
+            margin-left: 150px;
+            margin-right: 250px;
+        }
+        .lay h1 {
+            color: white;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 300px);
+            gap: 10px;
+            height: 450px;
+            width: 50px;
+        }
+        .container div {
+            border-radius: 10px;
+        }
+        .div1{
+            grid-column: 1/2;
+            grid-row: 1/4;
+            background-color: green;
+        }
+        .div2{
+            grid-column: 2/4;
+            grid-row: 1/2;
+            background-color: aquamarine;
+        }
+        .div3{
+            background-color: red;
+        }
+        .div4{
+            background-color: yellow;
+        }
+        .div5{
+            background-color: blueviolet;
+        }
+        .div6{
+            background-color: chocolate;
+            grid-column: 4/5;
+            grid-row: 2/4;
+        }
+        .div7{
+            background-color: chartreuse;
+        }
+        .div8{
+            background-color: darksalmon;
+        }
+    </style>
+</head>
+<body>  <div class="lay">
+        <center><h1>CSS GRID</h1></center><br><br>
+        <div class="container">
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+            <div class="div4"></div>
+            <div class="div5"></div>
+            <div class="div6"></div>
+            <div class="div7"></div>
+            <div class="div8"></div>
+        </div>
+        </div>
+</body>
+</html>
